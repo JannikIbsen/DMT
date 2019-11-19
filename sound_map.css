@@ -1,0 +1,33 @@
+
+
+.marker-image {
+  width: 32px;
+  height: 37px;
+  margin-left: -16px;
+  margin-top: -37px;
+  position: absolute;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+
+
+.marker-tooltip {
+  margin-top: -15px;
+}
+
+body {
+  margin: 0;
+}
+
+body * {
+  -moz-box-sizing: border-box;
+}
+
+#map {
+  font: 13px/18px helvetica, sans-serif;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
